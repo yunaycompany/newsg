@@ -1,0 +1,4 @@
+excepciones:
+    E626:
+        mensaje: excepciones.E626.mensaje
+        descripcion: este es la descripción

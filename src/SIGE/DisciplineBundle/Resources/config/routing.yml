@@ -1,0 +1,6 @@
+discipline_homepage:
+    path:     /
+    defaults: { _controller: DisciplineBundle:Default:index }
+discipline_res:
+    resource: "@DisciplineBundle/Controller/"
+    type:     annotation

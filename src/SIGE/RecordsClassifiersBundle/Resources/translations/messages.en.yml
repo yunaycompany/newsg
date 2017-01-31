@@ -1,0 +1,88 @@
+notFound: This entity not found
+cantDelete: They have not been able to eliminate some classifiers
+deleteOk: All classifiers were eliminated properly
+Ok: The classifier was successfully removed
+associated: The classifier has partnerships with surveys
+associatedCIs: The classifier has partnerships with classifications and informants centers
+deleteAssociated: Removed correctly, the classifier is not available for the classification of new units of observation
+noExist: The classifier can not be removed because it does not exist in the system
+Clasification add: Successfull add.
+Clasification post error: Dont Successfull.
+Clasification modify: Modify OK.
+Clasification put error: Modify failed.
+Clasification delete ok: Delete OK.
+Clasification delete failed encuestas: Delete Failed relationship with tbencuesta.
+Clasification delete failed centrosinformantes:: Delete Failed relationship with tbcentroinformante.
+Clasification delete failed no existe: Delete Failed not exist this clasifications
+Clasification delete failed server error: Server Errors.
+Clasification list failed: List Failed.
+Clasification post ya existe: Clasification Repeated.
+Register list failed: Operation Falied.
+Records Add succesfully: Operation succesfully.
+Records Add error: Operation falied.
+Records Edit succefully: Edit records succesfully.
+Records Delete succesfully: Delete records succesfully.
+All Records Delete succesfully: The records has been deleted succesfully.
+Records Delete failed: Operation failed, there are some observations units related to the record.
+Records fatal error: Operation failed.
+Clasifiers list failed: Clasifiers list error, operation failed.
+Get clasifications by clasifier failed: Clasifications list error, operation failed.
+Infosystem list failed: Impossible to list the infosystems.
+Infosystem list by id failed: Impossible to list the selected infosystems.
+Infosystem post success: Infosystem successfully added.
+Infosystem post error: Failed to add the infosystem correctly.
+Infosystem put success: Infosystem successfully edited.
+Infosystem put error: Failed to edit the infosystem correctly.
+Infosystem delete success: The infosystem has been successfully removed.
+Infosystem delete error: Failed to remove the infosystem correctly.
+Infosystems delete success: The infosystems has been successfully removed.
+Infosystems delete error: Failed to remove the infosystems correctly.
+Infosystems export success: Infosystems have been exported successfully.
+Infosystems export error: Failed to export the infosystems correctly.
+Infosystems import success: Infosystems have been imported successfully.
+Infosystems import error: Failed to import the infosystems correctly.
+Signfooter list failed: Impossible to list the signfooters.
+Signfooter list by id failed: Impossible to list the selected signfooters.
+Signfooter post success: Signfooter successfully added.
+Signfooter post error: Failed to add the signfooter correctly.
+Signfooter put success: Signfooter successfully edited.
+Signfooter put error: Failed to edit the signfooter correctly.
+Signfooter delete success: The signfooter has been successfully removed.
+Signfooter delete error: Failed to remove the signfooter correctly.
+Signfooters delete success: The signfooters has been successfully removed.
+Signfooters delete error: Failed to remove the signfooters correctly.
+Signfooters export success: Signfooters have been exported successfully.
+Signfooters export error: Failed to export the signfooters correctly.
+Signfooters import success: Signfooters have been imported successfully.
+Signfooters import error: Failed to import the signfooters correctly.
+Import failed: Import Failed.
+Header Not Match: Header Not Match.
+Import not loaded: Import not loaded.
+Import Success: Import Success.
+Import exception: Import exception.
+Data not valid: Data not valid.
+Delete Tematica Failed not found: Thematics not found.
+Delete Tematica Failed by Aspects and Indicators: Can not delete thematics by indicators and aspects .
+Delete Tematica Ok: All thematics has been erased.
+Imposible Get: Imposible to show tematics.
+
+Aspect get error: Impossible to list the aspects
+Aspect post error: Impossible to add the aspect
+Aspect put error: Impossible to modify the aspect
+Aspect patch error: Impossible to modify the aspect
+Aspect delete error: Impossible to eliminate the aspect
+Aspect dependency template error: Impossible to eliminate the aspect because it has relations with forms staff in the system
+Aspect dependency aspectSuperior error: Impossible to eliminate the aspect because it has aspects associate children
+Aspects post success: Aspects added correctly
+Aspect equals superior error: Impossible to modify the aspect because this one cannot coincide with the top aspect
+
+Delete sistema de informacion failed not found: 
+Delete sistema de informacion failed by register: 
+Delete sistema de informacion failed by model: 
+Delete sistema de informacion failed by information center: 
+Delete sistema de informacion failed by indicators: 
+Delete sistema de informacion failed by pie firma: 
+Delete sistema de informacion failed by aspect: 
+Delete sistema de informacion failed by classifier: 
+Delete sistema de informacion failed by users: 
+

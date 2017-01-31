@@ -1,0 +1,6 @@
+tools_homepage:
+    path:     /
+    defaults: { _controller: ToolsBundle:Default:index }
+tools_res:
+    resource: "@ToolsBundle/Controller/"
+    type:     annotation

@@ -1,0 +1,6 @@
+sige_homepage:
+    path:     /
+    defaults: { _controller: SigeBundle:Default:index }
+sige_res:
+    resource: "@SigeBundle/Controller/"
+    type:     annotation

@@ -1,0 +1,3 @@
+excepciones:
+    E626:
+        mensaje: Hola esto esto es una excepcion con el bundle SecurityManager

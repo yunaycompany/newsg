@@ -1,0 +1,41 @@
+User add: Usuario adicionado satisfactoriamente
+User modified: Usuario modificado satisfactoriamente
+User eliminated: Usuario eliminado satisfactoriamente
+Ldap add: Ldap adicionado satisfactoriamente
+Ldap modified: Ldap modificado satisfactoriamente
+Ldap eliminated: Ldap eliminado satisfactoriamente
+Ldap User Fail: Imposible recuperar los datos del usuario especificado.
+Rol add: Rol adicionado satisfactoriamente
+Rol modified: Rol modificado satisfactoriamente
+Rol eliminated: Rol eliminado satisfactoriamente
+
+#a partir de aqui no aparece en el de ingles
+App get error: Imposible listar las aplicaciones
+App post error: Imposible adicionar la aplicación
+App put error: Imposible modificar la aplicación
+App patch error: Imposible modificar la aplicación
+App delete error: Imposible eliminar la aplicación
+
+Rol get error: Imposible listar los roles
+Rol post error: Imposible adicionar el rol
+Rol put error: Imposible modificar el rol
+Rol patch error: Imposible modificar el rol
+Rol delete error: Imposible eliminar el rol
+
+User get error: Imposible listar los usuarios
+User post error: Imposible adicionar el usuario
+User put error: Imposible modificar el usuario
+User patch error: Imposible modificar el usuario
+User delete error: Imposible eliminar el usuario
+
+Auth get error: Imposible listar los tipos de autenticación
+Auth post error: Imposible adicionar el tipo de autenticación
+Auth put error: Imposible modificar el tipo de autenticación
+Auth patch error: Imposible modificar el tipo de autenticación
+Auth delete error: Imposible eliminar el tipo de autenticación
+
+Ldap get error: Imposible listar las conexiones ldap
+Ldap post error: Imposible adicionar la conexión ldap
+Ldap put error: Imposible modificar la conexión ldap
+Ldap patch error: Imposible modificar la conexión ldap
+Ldap delete error: Imposible eliminar la conexión ldap

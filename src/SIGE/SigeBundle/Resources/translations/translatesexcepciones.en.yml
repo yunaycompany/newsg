@@ -1,0 +1,9 @@
+excepciones:
+    S1:
+        mensaje: The sent parameters are incorrect
+    S2:
+        mensaje: The format is incorrect      
+    S3:
+        mensaje: There is no resource with the specified id 
+    S4:
+        mensaje: You dont have permissions to access the resource %R%

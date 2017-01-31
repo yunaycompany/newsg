@@ -1,0 +1,6 @@
+data_entry_homepage:
+    path:     /
+    defaults: { _controller: DataEntryBundle:Default:index }
+data_entry_res:
+    resource: "@DataEntryBundle/Controller/"
+    type:     annotation

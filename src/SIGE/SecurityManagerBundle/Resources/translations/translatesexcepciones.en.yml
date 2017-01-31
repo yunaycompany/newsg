@@ -1,0 +1,4 @@
+excepciones:
+    E626:
+        mensaje: Hello this is a message exception of the SecurityManager bundle
+        descripcion: dasdasdasds

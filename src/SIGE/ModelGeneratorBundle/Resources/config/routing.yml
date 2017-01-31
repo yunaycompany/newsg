@@ -1,0 +1,6 @@
+model_generator_homepage:
+    path:     /
+    defaults: { _controller: ModelGeneratorBundle:Default:index }
+model_generator_res:
+    resource: "@ModelGeneratorBundle/Controller/"
+    type:     annotation

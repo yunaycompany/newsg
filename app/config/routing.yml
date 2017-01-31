@@ -1,0 +1,35 @@
+tools:
+    resource: "@SigeBundle/Resources/config/routing.yml"
+    prefix:   /tools/
+    
+sige:
+    resource: "@SigeBundle/Resources/config/routing.yml"
+    prefix:   /    
+    
+discipline:
+    resource: "@DisciplineBundle/Resources/config/routing.yml"
+    prefix:   /discipline/
+    
+security_manager:
+    resource: "@SecurityManagerBundle/Resources/config/routing.yml"
+    prefix:   /security_manager/
+
+records_classifiers:
+    resource: "@RecordsClassifiersBundle/Resources/config/routing.yml"
+    prefix:   /records_classifiers/
+
+model_generator:
+    resource: "@ModelGeneratorBundle/Resources/config/routing.yml"
+    prefix:   /model_generator/
+
+data_entry:
+    resource: "@DataEntryBundle/Resources/config/routing.yml"
+    prefix:   /data_entry/
+
+admin:
+    resource: "@AdminBundle/Resources/config/routing.yml"
+    prefix:   /admin/
+
+NelmioApiDoc:
+    resource: "@NelmioApiDocBundle/Resources/config/routing.yml"
+    prefix:   /doc/

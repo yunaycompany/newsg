@@ -1,0 +1,13 @@
+excepciones:    
+    S1:
+        mensaje: excepciones.S1.mensaje
+        descripcion: Se lanza la excepción cuando los parámetros enviados son incorrectos    
+    S2:
+        mensaje: excepciones.S2.mensaje
+        descripcion: Se lanza la excepción cuando el formato es incorrecto        
+    S3:
+        mensaje: excepciones.S3.mensaje
+        descripcion: Se lanza la excepción cuando no existe el recurso a eliminar
+    S4:
+        mensaje: excepciones.S4.mensaje
+        descripcion: Se lanza la excepción cuando el usuario no posee permisos para acceder al recurso

@@ -1,0 +1,9 @@
+excepciones:
+    S1:
+        mensaje: Los parámetros enviados son incorrectos
+    S2:
+        mensaje: El formato es incorrecto      
+    S3:
+        mensaje: No existe el recurso con el id especificado
+    S4:
+        mensaje: Usted no posee permisos para acceder al recurso %R%

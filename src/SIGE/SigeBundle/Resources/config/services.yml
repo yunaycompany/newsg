@@ -1,0 +1,15 @@
+services:
+    sige.class.handler:
+                        class:        SIGE\SigeBundle\HandlerRest\ClassHandler
+                        arguments:    [@security.context,@translator, @doctrine.orm.entity_manager, @form.factory,@uci.boson.cache,@jms_serializer]
+   
+                        
+    sige.security.logout_success_handler:
+                        class: SIGE\SigeBundle\Handler\LogoutSuccessHandler  
+                        arguments: ["@security.token_storage","@doctrine.orm.entity_manager" ]
+    
+
+
+#    sige.example:
+#        class: SIGE\SigeBundle\Example
+#        arguments: [@service_id, "plain_value", %parameter%]

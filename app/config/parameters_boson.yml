@@ -1,0 +1,6 @@
+parameters:
+    cache: 
+         {type: memcache_cache, host: localhost, port: 11211}
+#        { type: php_file_cache, url: /var/www/html/sagi2/trunk/cache }
+    excepciones:
+        email_admin_contact: boson@uci.cu

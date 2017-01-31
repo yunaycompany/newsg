@@ -1,0 +1,4 @@
+services:
+#    discipline.example:
+#        class: SIGE\DisciplineBundle\Example
+#        arguments: ["@service_id", "plain_value", %parameter%]

@@ -1,0 +1,3 @@
+excepciones:
+    E626:
+        mensaje: Hola esto esto es una excepción con el bundle nuevo

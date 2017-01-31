@@ -1,0 +1,89 @@
+notFound: Esta entidad no se encuentra.
+cantDelete: No se han podido eliminar algunos clasificadores.
+deleteOk: Todos los clasificadores fueron eliminados correctamente.
+Ok: El clasificador fue eliminado correctamente.
+associated: El clasificador presenta asociaciones con encuestas.
+associatedCIs: El clasificador presenta asociaciones con clasificaciones y centroinformantes
+deleteAssociated: Eliminado correctamente, el clasificador no estará disponible para la clasificación de nuevas unidades de observación.
+noExist: El clasificador no puede ser eliminado porque no existe en el sistema.
+Clasification add: Clasificación añadida correctamente.
+Clasification post error: No se han podido adicionar la clasificación.
+Clasification modify: Clasificación modificada correctamente.
+Clasification put error: La clasificación no pudo ser modificada correctamente.
+Clasification delete ok: La clasificación ha sido eliminada correctamente.
+Clasification delete failed encuestas: La Clasificacion no se puede eliminar al estar relacionado con encuestas.
+Clasification delete failed centrosinformantes: La Clasificacion no se puede eliminar al estar relacionada con centros informantes.
+Clasification delete failed no existe: La Clasificacion a eliminar no existe en el sistema.
+Clasification delete failed server error: Ha ocurido un error en el servidor.
+Clasification list failed: Imposible listar las clasificaciones por clasificador.
+Clasification post ya existe: La clasificación ya existe.
+Register list failed: Imposible listar registros.
+Records Add succesfully: Registro adiciondado correctamente.
+Records Add error: El registro ya existe en el sistema.
+Records Edit succefully: El registro ha sido modificado correctamente.
+Records Delete succesfully: El registro ha sido eliminado correctamente.
+All Records Delete succesfully: Los registros han sido eliminados correctamente.
+Records Delete failed: Imposible eliminar registro, tiene asociado al menos una unidad de observaci&oacute;n.
+Records Delete succesfully: El registro ha sido eliminado correctamente.
+Records Delete failed: Imposible eliminar registro, tiene asociado al menos una unidad de observaci&oacute;n.
+Records fatal error: Imposible realizar la operaci&oacute;n.
+Clasifiers list failed: Imposible listar clasificadores.
+Get clasifications by clasifier failed: Imposible listar clasificaciones del clasificador.
+Infosystem list failed: Imposible listar los sistemas de información.
+Infosystem list by id failed: Imposible listar el sistema de información seleccionado.
+Infosystem post success: Sistema de información añadido correctamente.
+Infosystem post error: No se ha podido adicionar el sistema de información correctamente.
+Infosystem put success: Sistema de información modificado correctamente.
+Infosystem put error: El sistema de información no pudo ser modificado correctamente.
+Infosystem delete success: El sistema de información ha sido eliminado correctamente.
+Infosystem delete error: El sistema de información no pudo ser eliminado correctamente.
+Infosystems delete success: Los sistemas de información han sido eliminados correctamente.
+Infosystems delete error: Los sistemas de información no pudieron ser eliminados correctamente.
+Infosystems export success: Los sistemas de información han sido exportados correctamente.
+Infosystems export error: Los sistemas de información no pudieron ser exportados correctamente.
+Infosystems import success: Los sistemas de información han sido importados correctamente.
+Infosystems import error: Los sistemas de información no pudieron ser importados correctamente.
+Signfooter list failed: Imposible listar los pies de firma.
+Signfooter list by id failed: Imposible listar el pie de firma seleccionado.
+Signfooter post success: Pie de firma añadido correctamente.
+Signfooter post error: No se ha podido adicionar el pie de firma correctamente.
+Signfooter put success: Pie de firma modificado correctamente.
+Signfooter put error: El pie de firma no pudo ser modificado correctamente.
+Signfooter delete success: El pie de firma ha sido eliminado correctamente.
+Signfooter delete error: El pie de firma no pudo ser eliminado correctamente.
+Signfooters delete success: Los pies de firma han sido eliminados correctamente.
+Signfooters delete error: Los pies de firma no pudieron ser eliminados correctamente.
+Signfooters export success: Los pies de firma han sido exportados correctamente.
+Signfooters export error: Los pies de firma no pudieron ser exportados correctamente.
+Signfooters import success: Los pies de firma han sido importados correctamente.
+Signfooters import error: Los pies de firma no pudieron ser importados correctamente.
+Import failed: El archivo no existe o no es un archivo excell(.csv).
+Header Not Match: La cabecera del archivo a importar no coincide.
+Import not loaded: Los siguientes clasificadores no se han podido insertar correctamente
+Import Success: Los clasificadores han sido importados satisfactoriamente.
+Import exception: No se pudo completar la operación de importar.
+Data not valid: Datos no válidos.
+Delete Tematica Failed not found: La temática seleccionada no se ha podido eliminar porque no existe.
+Delete Tematica Failed by Aspects and Indicators: La temática seleccionada no se ha podido eliminar porque tiene indicadores o aspectos asociados .
+Delete Tematica Ok: Todas las temáticas seleccionadas han sido borradas.
+Imposible Get: Imposible mostrar las temáticas.
+
+Aspect get error: Imposible listar los aspectos
+Aspect post error: Imposible adicionar el aspecto
+Aspect put error: Imposible modificar el aspecto
+Aspect patch error: Imposible modificar el aspecto
+Aspect delete error: Imposible eliminar el aspecto  
+Aspect dependency template error: Imposible eliminar el aspecto porque tiene relaciones con plantillas de formularios en el sistema  
+Aspect dependency aspectSuperior error: Imposible eliminar el aspecto porque tiene aspectos hijos asociados
+Aspects post success: Aspectos añadidos correctamente
+Aspect equals superior error: Imposible modificar el aspecto porque éste no puede coincidir con el aspecto superior
+
+Delete sistema de informacion failed not found: No Existe el Sistema de Información que desea eliminar.
+Delete sistema de informacion failed by register: No se puede eliminar el sistema de informacion porque contiene registros asociados.
+Delete sistema de informacion failed by model: No se puede eliminar el sistema de informacion porque contiene modelos asociados.
+Delete sistema de informacion failed by information center: No se puede eliminar el sistema de informacion porque contiene centros informantes asociados.
+Delete sistema de informacion failed by indicators: No se puede eliminar el sistema de informacion porque contiene indicadores asociados.
+Delete sistema de informacion failed by pie firma: No se puede eliminar el sistema de informacion porque contiene pie de firma asociados.
+Delete sistema de informacion failed by aspect: No se puede eliminar el sistema de informacion porque contiene aspectos asociados.
+Delete sistema de informacion failed by classifier: No se puede eliminar el sistema de informacion porque contiene clasificadores asociados.
+Delete sistema de informacion failed by users: No se puede eliminar el sistema de informacion porque contiene usuarios asociados.

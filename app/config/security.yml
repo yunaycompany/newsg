@@ -1,0 +1,37 @@
+security:
+   
+    encoders:
+        SIGE\SecurityManagerBundle\Entity\Usuario:
+            algorithm: sha1
+            
+    providers:
+        wsse_users:
+            entity: {class: SecurityManagerBundle:Usuario, property: username }
+   
+
+    firewalls:                                
+        wsse_secured:
+            pattern:   ^/
+            stateless: true
+            wsse:  
+                lifetime: 1800  
+                date_format: '/^([\+-]?\d{4}(?!\d{2}\b))((-?)((0[1-9]|1[0-2])(\3([12]\d|0[1-9]|3[01]))?|W([0-4]\d|5[0-2])(-?[1-7])?|(00[1-9]|0[1-9]\d|[12]\d{2}|3([0-5]\d|6[1-6])))([T\s]((([01]\d|2[0-3])((:?)[0-5]\d)?|24\:?00)([\.,]\d+(?!:))?)?(\17[0-5]\d([\.,]\d+)?)?([zZ]|([\+-])([01]\d|2[0-3]):?([0-5]\d)?)?)?)?$/'
+            provider: wsse_users            
+            logout:  
+                path:   ~ 
+                success_handler: sige.security.logout_success_handler
+          
+            
+#        main:             
+#            anonymous: true      
+
+        
+               
+        # activate different ways to authenticate
+        dev:
+            pattern: ^/(_(profiler|wdt)|css|images|js)/
+            security: false
+
+
+
+

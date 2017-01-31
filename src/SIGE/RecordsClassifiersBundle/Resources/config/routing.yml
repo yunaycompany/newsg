@@ -1,0 +1,6 @@
+records_classifiers_homepage:
+    path:     /
+    defaults: { _controller: RecordsClassifiersBundle:Default:index }
+records_classifiers_res:
+    resource: "@RecordsClassifiersBundle/Controller/"
+    type:     annotation
